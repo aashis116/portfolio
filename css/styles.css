@@ -300,6 +300,11 @@ footer p{color:var(--text-dim); margin:0 0 22px; max-width:48ch;}
   transition:transform .15s ease, box-shadow .15s ease;
 }
 .btn:hover{box-shadow:0 8px 24px -8px rgba(57,217,138,0.5);}
+.btn-ghost{
+  background:none; color:var(--text); border:1px solid var(--border);
+  margin-top:28px;
+}
+.btn-ghost:hover{border-color:var(--green); color:var(--green); box-shadow:none;}
 .foot-links{display:flex; gap:22px; font-size:13.5px; color:var(--text-dim);}
 .foot-links a{text-decoration:none;}
 .foot-links a:hover{color:var(--text);}
