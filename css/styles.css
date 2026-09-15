@@ -201,7 +201,7 @@ p.lede{color:var(--text-dim); margin:0 0 40px; max-width:62ch; text-align:justif
 
 /* Focus area cards */
 .focus-grid{
-  display:grid; grid-template-columns:1fr 1fr; gap:18px;
+  display:grid; grid-template-columns:1fr; gap:18px;
 }
 .focus-card{
   background:var(--panel);
@@ -261,7 +261,7 @@ p.lede{color:var(--text-dim); margin:0 0 40px; max-width:62ch; text-align:justif
 
 /* Projects */
 .project-grid{
-  display:grid; grid-template-columns:repeat(2,1fr); gap:16px;
+  display:grid; grid-template-columns:1fr; gap:16px;
 }
 .project-card{
   border:1px solid var(--border); border-radius:var(--radius);
@@ -321,8 +321,6 @@ footer p{color:var(--text-dim); margin:0 0 22px; max-width:48ch; text-align:just
 /* ---------- Responsive ---------- */
 @media (max-width:860px){
   .hero-grid{grid-template-columns:1fr; gap:40px;}
-  .focus-grid{grid-template-columns:1fr;}
-  .project-grid{grid-template-columns:1fr;}
   .skills-cols{grid-template-columns:1fr; gap:26px;}
   .role-item{grid-template-columns:1fr; gap:8px;}
   .role-date{padding-top:0; white-space:nowrap;}
